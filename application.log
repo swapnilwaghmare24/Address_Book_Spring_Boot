@@ -1,0 +1,169 @@
+2022-12-29 14:01:23.360  INFO 9400 --- [restartedMain] c.b.addressbook.AddressBookApplication   : Starting AddressBookApplication using Java 17.0.1 on lenovo with PID 9400 (C:\Users\User\eclipse-workspace\AddressBook\target\classes started by User in C:\Users\User\eclipse-workspace\AddressBook)
+2022-12-29 14:01:23.371  INFO 9400 --- [restartedMain] c.b.addressbook.AddressBookApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-12-29 14:01:26.294  INFO 9400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-29 14:01:26.295  INFO 9400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-29 14:01:32.542  INFO 9400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-29 14:01:32.548  INFO 9400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-12-29 14:01:32.678  INFO 9400 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.bridgelabz.addressbook.repository.AddressBookRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-12-29 14:01:32.680  INFO 9400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105 ms. Found 0 JDBC repository interfaces.
+2022-12-29 14:01:32.722  INFO 9400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-29 14:01:32.742  INFO 9400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-29 14:01:32.861  INFO 9400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107 ms. Found 1 JPA repository interfaces.
+2022-12-29 14:01:35.468  INFO 9400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-29 14:01:35.514  INFO 9400 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-29 14:01:35.516  INFO 9400 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-29 14:01:35.941  INFO 9400 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-29 14:01:35.943  INFO 9400 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9646 ms
+2022-12-29 14:01:36.674  INFO 9400 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-29 14:01:36.890  INFO 9400 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-29 14:01:37.279  INFO 9400 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-29 14:01:37.710  INFO 9400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-29 14:01:38.695  INFO 9400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-29 14:01:39.170  INFO 9400 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-12-29 14:01:42.256  INFO 9400 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-29 14:01:42.296  INFO 9400 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-29 14:01:43.405  WARN 9400 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-29 14:01:44.855  INFO 9400 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-29 14:01:45.003  INFO 9400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-29 14:01:45.027  INFO 9400 --- [restartedMain] c.b.addressbook.AddressBookApplication   : Started AddressBookApplication in 23.296 seconds (JVM running for 24.908)
+2022-12-29 14:27:08.624  INFO 9400 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-12-29 14:27:08.678  INFO 9400 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-29 14:27:09.234  INFO 9400 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-29 14:27:09.239  INFO 9400 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-29 19:46:39.038  INFO 5236 --- [restartedMain] c.b.addressbook.AddressBookApplication   : Starting AddressBookApplication using Java 17.0.1 on lenovo with PID 5236 (C:\Users\User\eclipse-workspace\AddressBook\target\classes started by User in C:\Users\User\eclipse-workspace\AddressBook)
+2022-12-29 19:46:39.094  INFO 5236 --- [restartedMain] c.b.addressbook.AddressBookApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-12-29 19:46:39.920  INFO 5236 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-29 19:46:39.922  INFO 5236 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-29 19:46:52.409  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-29 19:46:52.450  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-12-29 19:46:53.085  INFO 5236 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.bridgelabz.addressbook.repository.AddressBookRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-12-29 19:46:53.088  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 495 ms. Found 0 JDBC repository interfaces.
+2022-12-29 19:46:53.224  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-29 19:46:53.334  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-29 19:46:53.941  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 438 ms. Found 1 JPA repository interfaces.
+2022-12-29 19:47:07.729  INFO 5236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-29 19:47:08.080  INFO 5236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-29 19:47:08.080  INFO 5236 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-29 19:47:09.815  INFO 5236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-29 19:47:09.816  INFO 5236 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 29892 ms
+2022-12-29 19:47:15.328  INFO 5236 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-29 19:47:19.950  INFO 5236 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-29 19:47:26.197  INFO 5236 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-29 19:47:27.089  INFO 5236 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-29 19:47:28.626  INFO 5236 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-29 19:47:28.799  INFO 5236 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-12-29 19:47:30.557  INFO 5236 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-29 19:47:30.641  INFO 5236 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-29 19:47:32.497  WARN 5236 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-29 19:47:33.329  INFO 5236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-29 19:47:33.484  INFO 5236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-29 19:47:33.516  INFO 5236 --- [restartedMain] c.b.addressbook.AddressBookApplication   : Started AddressBookApplication in 60.3 seconds (JVM running for 62.462)
+2022-12-29 19:53:36.828  INFO 5236 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-29 19:53:36.829  INFO 5236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-29 19:53:36.834  INFO 5236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-12-29 20:22:47.499  INFO 5236 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-12-29 20:23:17.030  INFO 5236 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-29 20:23:20.102  INFO 5236 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-29 20:23:36.422  WARN 5236 --- [Thread-5] org.apache.tomcat.util.net.NioEndpoint   : The pollers did not stop within the expected time
+2022-12-29 20:23:43.262  INFO 5236 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-29 20:23:54.224  INFO 5236 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-29 20:24:06.567  INFO 5236 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-29 20:25:05.146  INFO 5236 --- [restartedMain] c.b.addressbook.AddressBookApplication   : Starting AddressBookApplication using Java 17.0.1 on lenovo with PID 5236 (C:\Users\User\eclipse-workspace\AddressBook\target\classes started by User in C:\Users\User\eclipse-workspace\AddressBook)
+2022-12-29 20:25:05.333  INFO 5236 --- [restartedMain] c.b.addressbook.AddressBookApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-12-29 20:25:39.294  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-29 20:25:39.295  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-12-29 20:25:39.719  INFO 5236 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.bridgelabz.addressbook.repository.AddressBookRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-12-29 20:25:39.730  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 369 ms. Found 0 JDBC repository interfaces.
+2022-12-29 20:25:39.846  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-29 20:25:39.847  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-29 20:25:40.175  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 294 ms. Found 1 JPA repository interfaces.
+2022-12-29 20:25:46.204  INFO 5236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-29 20:25:46.208  INFO 5236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-29 20:25:46.209  INFO 5236 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-29 20:25:46.699  INFO 5236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-29 20:25:46.700  INFO 5236 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 41282 ms
+2022-12-29 20:25:47.743  INFO 5236 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-29 20:25:47.965  INFO 5236 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-12-29 20:25:48.803  INFO 5236 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-12-29 20:25:48.872  INFO 5236 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-12-29 20:25:51.189  INFO 5236 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-29 20:25:51.222  INFO 5236 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-29 20:25:52.296  WARN 5236 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-29 20:25:53.552  INFO 5236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-29 20:25:53.826  INFO 5236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-29 20:25:53.845  INFO 5236 --- [restartedMain] c.b.addressbook.AddressBookApplication   : Started AddressBookApplication in 55.631 seconds (JVM running for 2362.791)
+2022-12-29 20:25:53.852  INFO 5236 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-12-29 20:25:55.871  INFO 5236 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2022-12-29 20:25:55.898  INFO 5236 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-29 20:25:55.942  INFO 5236 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-29 20:25:55.946  INFO 5236 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-12-29 20:25:55.980  INFO 5236 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-12-29 20:25:56.274  INFO 5236 --- [restartedMain] c.b.addressbook.AddressBookApplication   : Starting AddressBookApplication using Java 17.0.1 on lenovo with PID 5236 (C:\Users\User\eclipse-workspace\AddressBook\target\classes started by User in C:\Users\User\eclipse-workspace\AddressBook)
+2022-12-29 20:25:56.275  INFO 5236 --- [restartedMain] c.b.addressbook.AddressBookApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-12-29 20:25:58.268  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-29 20:25:58.270  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-12-29 20:25:58.291  INFO 5236 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.bridgelabz.addressbook.repository.AddressBookRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-12-29 20:25:58.292  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 0 JDBC repository interfaces.
+2022-12-29 20:25:58.303  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-29 20:25:58.304  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-29 20:25:58.339  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2022-12-29 20:26:00.088  INFO 5236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-29 20:26:00.089  INFO 5236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-29 20:26:00.089  INFO 5236 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-29 20:26:00.766  INFO 5236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-29 20:26:00.767  INFO 5236 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4489 ms
+2022-12-29 20:26:00.834  INFO 5236 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-29 20:26:00.846  INFO 5236 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-12-29 20:26:00.882  INFO 5236 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-12-29 20:26:00.883  INFO 5236 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-12-29 20:26:00.941  INFO 5236 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-29 20:26:00.941  INFO 5236 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-29 20:26:01.387  WARN 5236 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-29 20:26:01.646  INFO 5236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-29 20:26:01.711  INFO 5236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-29 20:26:01.726  INFO 5236 --- [restartedMain] c.b.addressbook.AddressBookApplication   : Started AddressBookApplication in 5.581 seconds (JVM running for 2370.671)
+2022-12-29 20:26:01.732  INFO 5236 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-12-29 20:29:35.717  INFO 5236 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-29 20:29:35.718  INFO 5236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-29 20:29:35.720  INFO 5236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-12-29 20:33:45.267  INFO 5236 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-12-29 20:33:45.309  INFO 5236 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-29 20:33:45.310  INFO 5236 --- [Thread-11] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-29 20:33:45.317  INFO 5236 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-29 20:33:45.319  INFO 5236 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-12-29 20:33:45.566  INFO 5236 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-12-29 20:33:45.744  INFO 5236 --- [restartedMain] c.b.addressbook.AddressBookApplication   : Starting AddressBookApplication using Java 17.0.1 on lenovo with PID 5236 (C:\Users\User\eclipse-workspace\AddressBook\target\classes started by User in C:\Users\User\eclipse-workspace\AddressBook)
+2022-12-29 20:33:45.745  INFO 5236 --- [restartedMain] c.b.addressbook.AddressBookApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-12-29 20:33:46.588  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-29 20:33:46.588  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-12-29 20:33:46.597  INFO 5236 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.bridgelabz.addressbook.repository.AddressBookRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-12-29 20:33:46.598  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2022-12-29 20:33:46.603  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-29 20:33:46.604  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-29 20:33:46.617  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.
+2022-12-29 20:33:46.904  INFO 5236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-29 20:33:46.904  INFO 5236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-29 20:33:46.906  INFO 5236 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-29 20:33:47.109  INFO 5236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-29 20:33:47.109  INFO 5236 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1360 ms
+2022-12-29 20:33:47.192  INFO 5236 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-29 20:33:47.206  INFO 5236 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-12-29 20:33:47.280  INFO 5236 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-12-29 20:33:47.282  INFO 5236 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-12-29 20:33:47.390  INFO 5236 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-29 20:33:47.391  INFO 5236 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-29 20:33:47.595  WARN 5236 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-29 20:33:47.824  INFO 5236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-29 20:33:48.110  INFO 5236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-29 20:33:48.116  INFO 5236 --- [restartedMain] c.b.addressbook.AddressBookApplication   : Started AddressBookApplication in 2.434 seconds (JVM running for 2837.062)
+2022-12-29 20:33:48.118  INFO 5236 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-12-29 20:35:42.022  INFO 5236 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-29 20:35:42.399  INFO 5236 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-29 20:35:43.729  INFO 5236 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1265 ms
+2022-12-29 20:36:04.633  WARN 5236 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.addressbook.dto.ResponseDto> com.bridgelabz.addressbook.controller.AddressBookController.postData(com.bridgelabz.addressbook.dto.AddressBookDto): [Field error in object 'addressBookDto' on field 'phoneNumber': rejected value [022222222222223]; codes [Pattern.addressBookDto.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressBookDto.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljavax.validation.constraints.Pattern$Flag;@5ba29dcf,^[0-9]{3,10}$]; default message [Please enter valid phone number]] ]
+2022-12-29 20:38:53.560  INFO 5236 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-12-29 20:38:53.701  INFO 5236 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-29 20:38:53.733  INFO 5236 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-29 20:38:53.903  INFO 5236 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-29 20:38:53.951  INFO 5236 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-12-29 20:38:54.124  INFO 5236 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
